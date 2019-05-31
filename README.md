@@ -24,7 +24,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   2. Clone the repo using gitclone
    `git clone https://github.com/ivanatu/ReacJS-Storing-Patient-Information.git`
   3. Navigate to the clone directory.
-   `cd WebPracticeReactJs`
+   `cd ReacJS-Storing-Patient-Information`
   4. Install required packages
    `npm install`
 
