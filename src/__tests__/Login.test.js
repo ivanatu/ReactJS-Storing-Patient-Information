@@ -57,20 +57,27 @@ describe('<Login/>', () => {
         expect(wrapper.exists(<label className="login-field-icon fui-lock"/>))
     });
     it('should render form inputs', () => {
-        expect(wrapper.find('#number1').length).toEqual(1);
-        expect(wrapper.find('#number2').length).toEqual(1);
+        expect(wrapper.find('#firstname').length).toEqual(1);
+        expect(wrapper.find('#lastname').length).toEqual(1);
+        expect(wrapper.find('#sex').length).toEqual(1);
+        expect(wrapper.find('#age').length).toEqual(1);
+        expect(wrapper.find('#city').length).toEqual(1);
+        expect(wrapper.find('#country').length).toEqual(1);
     });
     it('input should respond to change event and change the state', () => {
-        wrapper.find('#number1').simulate('change', { target: { name: 'number1', value: '2' } });
-        expect(wrapper.state('number1')).toEqual('2')
+        wrapper.find('#firstname').simulate('change', { target: { name: 'firstname', value: 'ivan' } });
+        expect(wrapper.state('firstname')).toEqual('ivan')
     });
     it('input should respond to change event and change the state', () => {
-        wrapper.find('#number2').simulate('change', { target: { name: 'number2', value: '2' } });
-        expect(wrapper.state('number2')).toEqual('2')
+        wrapper.find('#lastname').simulate('change', { target: { name: 'lastname', value: 'baron' } });
+        expect(wrapper.state('lastname')).toEqual('baron')
     });
     it('renders login form and submits data', () =>{
         wrapper.find("#login_form").simulate('submit', {preventDefault(){}});
         expect(toJson(wrapper)).toMatchSnapshot();
+    });
+ 
+});
     });
  
 });
