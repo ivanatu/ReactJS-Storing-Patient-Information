@@ -22,9 +22,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   1. Make directory to where you want you application will be stored e.g
    `mkdir Myapp`
   2. Clone the repo using gitclone
-   `git clone https://github.com/ivanatu/ReacJS-Storing-Patient-Information.git`
+   `git clone https://github.com/ivanatu/ReactJS-Storing-Patient-Information.git`
   3. Navigate to the clone directory.
-   `cd ReacJS-Storing-Patient-Information`
+   `cd ReactJS-Storing-Patient-Information`
   4. Install required packages
    `npm install`
 
