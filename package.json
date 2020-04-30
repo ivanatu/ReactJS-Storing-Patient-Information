@@ -13,7 +13,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "jest-cli": "^22.3.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.4",
     "popper.js": "^1.12.9",
     "react": "^16.2.0",
