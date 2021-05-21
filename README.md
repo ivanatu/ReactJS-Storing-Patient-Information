@@ -37,3 +37,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    `npm test`
   2. Running the tests with coverage
    `npm test -- --coverage`
+
+
+  ### My proposal
+
+## What problem are you trying to solve?
+Am trying to create and web application in React that allows clients to add employees from different countries . This app
+should have fields accustomed to each specific country.
+## Why should we solve it?
+We should solve it because different clients may want to use the platform for different purposes.
+Its not a big problem but it might take some time to solve.
+## How do you propose to solve it?
+First of all i created the front end app without mockups. Firstly i think we would need a UI/UX designer to assist in that.
+Secondly i would need to add a back end to it and also add a database to store the employee information.
+The backend would help us fetch the data from the frontend to the database and vice versa.
+## What other approaches did you consider?
+In general , for now my approach would have the application ready is staging and tested by the QA team and then we would get 
+feedback on the product and lastly would be to implement feedback and send to production to receive customer feedback.
+## What could go wrong?
+For now the timeframe wouldnt be on our side but i think with proper planning all would be well.
